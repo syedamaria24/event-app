@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOrbH47f-m0vkOKpxiZn6P_IzR9tYmF4-jhg&s');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section {
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner img {
+    height: 60%;
+    object-fit: cover;
+}
+
+h2, h3, h4 {
+    color: #1b1919;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar a {
+    color: #0f0d0d !important;
+}
+
+.navbar a:hover {
+    color: #2557c2 !important;
+}
+
+/* Footer section */
+footer {
+    background-color: #71787e;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #3976c5;
+}
+
+/* Styling the Team section */
+.team-member img {
+    border-radius: 10%;
+    margin-bottom: 10px;
+
+}
